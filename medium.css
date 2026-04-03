@@ -54,6 +54,15 @@ header section {
     border-bottom: 2px solid #191919;
     background-color: #ffc017;
     padding-top: 5em;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    right: -150px;
+    top: 50px;
+    border: none;
+    display: none;
 }
 
 header section h1 {
@@ -113,6 +122,11 @@ header section button {
     }
     .nav-visibility {
         display: inline-block;
+    }
+    iframe {
+        display: block;
+        left: 60%;
+        right: 0;
     }
 }
 
@@ -279,6 +293,9 @@ ul {
     }
     main {
         padding: 0 2em;
+    }
+    iframe {
+        left: auto;
     }
 }
 
