@@ -1,0 +1,3 @@
+svg path, svg g, svg polygon {
+    transition: opacity 0.8s ease-in-out; /* Sfumatura di quasi un secondo */
+}
