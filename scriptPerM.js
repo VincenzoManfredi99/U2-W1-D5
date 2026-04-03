@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
             m.style.opacity = stato;
 
             // (tra 2 e 7 secondi) per il PROSSIMO cambio
-            const reset = Math.random() * 5000 + 2000;
+            const reset = Math.random() * 2000 + 1000;
 
             // 3. Diciamo alla funzione di auto-eseguirsi di nuovo
             setTimeout(animazione, reset);
